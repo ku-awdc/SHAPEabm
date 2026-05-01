@@ -1,0 +1,29 @@
+Package: SHAPEabm
+Title: An Agent-Based Model Integrating Socio-Economic and Infectious Disease Models
+Version: 0.1.0-1
+Date: 2026-05-01
+Description: What the package does (one paragraph).
+Authors@R:
+  c(
+    person(given="Matt", family="Denwood", email="md@sund.ku.dk", role=c("aut", "cre")),
+    person(given=c("Lene", "Jung"), family="Kj\U00e6r", email="lenju@sund.ku.dk", role=c("ctb")),
+    person(given="Louise", family="Matthews", email="louise.matthews@glasgow.ac.uk", role=c("ctb"))
+  )    
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends:
+  R (>= 4.1.0)
+Imports:
+  rlang,
+  dplyr,
+  tibble
+Suggests: 
+  knitr,
+  rmarkdown,
+  spelling,
+  testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+Language: en-GB
